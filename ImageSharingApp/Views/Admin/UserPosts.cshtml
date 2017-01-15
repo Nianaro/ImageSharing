@@ -1,0 +1,75 @@
+﻿@model IEnumerable<ImageSharingApp.DAL.Entities.Publication>
+@{
+    Layout = "~/Views/MasterPage.cshtml";
+}
+@Html.ActionLink(Resources.Resource.Users, "Admin", "Admin", new { @class = "btn btn-primary" })
+@using (Html.BeginForm("SearchPostsByDate", "Admin"))
+{
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="input-group">
+                <input class="form-control" name="date" type="date" />
+                <span class="input-group-btn">
+                    <input class="btn btn-primary" type="submit"  value="@Resources.Resource.Search"/>
+                </span>
+            </div>
+            <!-- /input-group -->
+        </div>
+        <!-- /.col-lg-6 -->
+    </div>
+}
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <td>@Resources.Resource.Photo</td>
+            <td>@Resources.Resource.Description</td>
+            <td>@Resources.Resource.Date</td>
+            <td>@Resources.Resource.Comments</td>
+            <td>@Resources.Resource.Action</td>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var post in Model)
+            {
+            <tr>
+                <td>
+                    <img src="~/Content/images/@post.photo"/ width="100" height="100"></td>
+                <td>@post.description</td>
+                <td>@post.date</td>
+                <td>@using (Html.BeginForm("GetCommentsByPostId", "Admin"))
+                    {
+                    <input name="postId" type="hidden" value="@post.ID"/>
+                    <input class="btn btn-primary" type="submit" value="@Resources.Resource.Comments" />
+                    }</td>
+
+                <td>@using (Ajax.BeginForm("BlockOrUnblockPost", "Admin", new AjaxOptions { }))
+                    {
+                    <input name="postId" type="hidden" value="@post.ID"/>
+                    <input class="btn btn-danger" id="@post.ID" type="submit"  onclick="@("change(" + post.ID + ")")" value="@(post.isBlocked ? Resources.Resource.Unblock : Resources.Resource.Block)"/>
+                    }</td>
+            </tr>
+            }
+        }
+    </tbody>
+</table>
+<script type="text/javascript">
+    var blockRu = "Заблокировать";
+    var blockEn = "Block";
+    var unblockRu = "Разблокировать";
+    var unblockEn = "Unblock";
+    function change(postId) {
+        var flag = document.getElementById(postId);
+        if (flag.value == blockEn) {
+            flag.value = unblockEn;
+        } else if (flag.value == unblockEn) {
+            flag.value = blockEn;
+        } else if (flag.value == blockRu) {
+            flag.value = unblockRu;
+        } else if (flag.value == unblockRu) {
+            flag.value = blockRu;
+        }
+    }
+</script>

@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ImageSharingApp.DAL.Entities.PostModel>
+@if (@Model != null)
+{
+    foreach (var post in Model)
+    {
+        if (@post != null)
+        {
+    <div class="click" onclick="@("look(" + post.ID +")")">
+        <img src="~/Content/images/@post.photo" width="300" height="200" style="cursor: pointer"/>
+    </div>
+    <div>@post.date by @post.firstName @post.secondName</div>
+        }
+    }
+}

@@ -1,0 +1,45 @@
+﻿@model ImageSharingApp.DAL.Entities.Publication
+<div>
+    <div style="font-weight: bold; white-space: normal; max-width: 100%; overflow: visible;">@Model.description</div>
+    <div>
+        <img src="~/Content/images/@Model.photo" style="max-width:100%; height:auto"/>
+    </div>
+    <div style="font-weight: bold">@Model.date by @Model.user.firstName @Model.user.secondName</div>
+
+    @using (Ajax.BeginForm("AddComment", "User", new AjaxOptions { UpdateTargetId = "comment" }, new { id = "commentForm" }))
+    {
+        <input name="postId" type="hidden" value="@Model.ID"/>
+        <div class="row">
+            <div class="col-lg-6" style="width:100%">
+                <div class="input-group" >
+                    <input class="form-control" id="inpt" name="text" type="text" maxlength="255" style="width: 100%;" />
+                    <span class="input-group-btn">
+                        <input  class="btn btn-primary" type="button" value="@Resources.Resource.Add" onclick="delResult()"/>
+                    </span>
+                </div>
+            </div>
+        </div>      
+    }
+    <div id="comment" style="overflow-y: auto; width: 99%; height: 200px; margin-left: 0.5%">
+        @if (@Model.comments != null)
+        {
+            foreach (var comment in @Model.comments)
+            {
+            <div style="font-size: 16px">@comment.text</div>
+            <div style="color: chocolate; font-size: 12px">@comment.date by @comment.user.firstName @comment.user.secondName</div>
+            }
+        }
+    </div>
+</div>
+<script type="text/javascript">
+    var flag = true;
+    function delResult() {
+        $("#comment").empty();
+        if (flag) {
+            $("#commentForm").trigger("submit");
+            flag = false;
+        }
+        setTimeout(flag = true, 5000);
+        $("#inpt").val('');
+    }
+</script>

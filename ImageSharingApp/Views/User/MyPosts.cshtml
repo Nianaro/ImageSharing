@@ -1,0 +1,85 @@
+﻿@model IEnumerable<ImageSharingApp.DAL.Entities.Publication>
+@{
+    Layout = "~/Views/MasterPage.cshtml";    
+}
+<div style="margin-left:35%; margin-bottom:5%; margin-right:40%">
+    @foreach (var post in @Model)
+    {
+        <div id="@("outerdiv" + post.ID)">
+            <div id="@("innerdiv" + post.ID)" contenteditable="false" style="font-weight:bold;white-space: normal; width:300px; overflow: hidden;" oninput="@("cutLongText(" + post.ID + ")")">@post.description</div>
+            <div>
+                <img src="~/Content/images/@post.photo" width="300" height="200"/></div>
+            <div>@post.date</div>
+            <input class="btn btn-info" id="@("edit" + post.ID)" type="button" onclick="@("edit(" + post.ID + ")")" value="@Resources.Resource.Edit"/>
+            <input class="btn btn-danger" type="button" onclick="@("del(" + post.ID + ")")" value="@Resources.Resource.Delete"/>
+        </div>
+    }
+</div>
+<script type="text/javascript">
+    var saveEN = "Save";
+    var editEN = "Edit";
+    var saveRU = "Сохранить";
+    var editRU = "Редактировать";
+
+    function cutLongText(postId) {
+        var elem, size, text;
+        elem = document.getElementById('innerdiv' + postId);
+        text = elem.innerHTML;
+        size = 255;
+        if (text.length > size) {
+            text = text.slice(0, size);
+            window.alert("@Resources.Resource.MaxLenStrIs255");
+        }
+        elem.innerHTML = text;
+    }
+
+    function changeNameButtonFromSaveToEditRUEN(editBut) {
+        if (editBut.value == saveEN) {
+            editBut.value = editEN;
+        } else if (editBut.value == saveRU) {
+            editBut.value = editRU;
+        }
+    }
+
+    function changeNameButtonFromEditToSaveRUEN(editBut) {
+        if (editBut.value == editEN) {
+            editBut.value = saveEN;
+        } else if (editBut.value == editRU) {
+            editBut.value = saveRU;
+        }
+    }
+
+    function edit(postId) {
+        var flag = document.getElementById("innerdiv" + postId).contentEditable;
+        if (flag == "true") {
+            document.getElementById("innerdiv" + postId).contentEditable = false;
+
+            var editBut = document.getElementById("edit" + postId);
+
+            changeNameButtonFromSaveToEditRUEN(editBut);
+
+            var form = new FormData();
+            var edit = document.getElementById("innerdiv" + postId).innerHTML;
+            form.append("edit", edit);
+            form.append("postId", postId);
+            var xhr = new XMLHttpRequest();
+            xhr.open("post", "/User/EditPost", true);
+            xhr.send(form);
+        } else {
+            document.getElementById("innerdiv" + postId).contentEditable = true;
+            var editBut = document.getElementById("edit" + postId);
+            changeNameButtonFromEditToSaveRUEN(editBut);
+        }
+    }
+    function del(postId) {
+        if (confirm("Are you sure?")) {
+            $("#outerdiv" + postId).remove();
+
+            var form = new FormData();
+            form.append("postId", postId);
+            var xhr = new XMLHttpRequest();
+            xhr.open("post", "/User/RemovePost", true);
+            xhr.send(form);
+        }
+    }
+</script>

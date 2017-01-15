@@ -1,0 +1,11 @@
+﻿@model IEnumerable<ImageSharingApp.DAL.Entities.Comment>
+<div>
+    @if (@Model != null)
+    {
+        foreach (var comment in @Model)
+        {
+        <div style="font-size: 16px">@comment.text</div>
+        <div style="color: chocolate; font-size: 12px">@comment.date by @comment.user.firstName @comment.user.secondName</div>
+        }
+    }
+</div>

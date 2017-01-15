@@ -1,0 +1,37 @@
+﻿<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="../User/Account"><img src="~/Content/images/Penguins.jpg" width="45" height="45" class="img-circle" /></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink(@Resources.Resource.Friends, "Friends", "User")</li>
+                <li>@Html.ActionLink(@Resources.Resource.Account, "Account", "User")</li>
+
+            </ul>
+            <form class="navbar-form navbar-left" action="~/User/SearchFriend" method="get">
+                <div class="form-group">
+                    <input name="name" type="text" class="form-control" placeholder="@Resources.Resource.EnterFirstName">
+                </div>
+                <button type="submit" class="btn btn-primary">@Resources.Resource.Search</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@Resources.Resource.ChooseLang<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="~/User/ChangeCulture?lang=en">EN</a></li>
+                        <li><a href="~/User/ChangeCulture?lang=ru">RU</a></li>
+                    </ul>
+                </li>
+                <li>@if (HttpContext.Current.Session["user"] != null)
+                    {
+                    @Html.ActionLink(@Resources.Resource.Logout, "Logout", "User")
+                    }
+                    else
+                    {
+                    <a href="/">@Resources.Resource.LoginOrRegistration</a>
+                    }</li>
+            </ul>
+        </div>
+    </div>
+</nav>

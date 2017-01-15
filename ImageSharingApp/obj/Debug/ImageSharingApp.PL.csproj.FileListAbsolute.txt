@@ -1,0 +1,247 @@
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ImageSharingApp.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ImageSharingApp.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\Antlr3.Runtime.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.AspNet.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.Core.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OAuth.Consumer.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OAuth.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OpenId.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\EntityFramework.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\EntityFramework.SqlServer.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ImageSharing.Business.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ImageSharingApp.DAL.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\Microsoft.Web.Infrastructure.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\Microsoft.Web.WebPages.OAuth.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\Newtonsoft.Json.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Net.Http.Formatting.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Helpers.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Http.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Http.WebHost.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Mvc.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Optimization.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Razor.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.WebPages.Deployment.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.WebPages.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.WebPages.Razor.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\WebGrease.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\WebMatrix.Data.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\WebMatrix.WebData.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ImageSharing.Business.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ImageSharingApp.DAL.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\EntityFramework.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\EntityFramework.SqlServer.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\Newtonsoft.Json.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Net.Http.Formatting.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Helpers.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Http.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Http.WebHost.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Mvc.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Razor.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.WebPages.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.WebPages.Deployment.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.WebPages.Razor.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\WebMatrix.Data.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\Microsoft.Web.WebPages.OAuth.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\WebMatrix.WebData.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.AspNet.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.Core.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OAuth.Consumer.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OAuth.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OpenId.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\EntityFramework.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\EntityFramework.SqlServer.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Net.Http.Formatting.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.Helpers.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.Http.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.Http.WebHost.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.Mvc.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.Optimization.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.Razor.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.WebPages.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.WebPages.Deployment.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.WebPages.Razor.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\WebMatrix.Data.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\WebMatrix.WebData.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.PL.csprojResolveAssemblyReference.cache
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\SimpleCrypto.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ActionMailer.Net.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ActionMailer.Net.Mvc.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ActionMailer.Net.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ActionMailer.Net.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ActionMailer.Net.Mvc.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ActionMailer.Net.Mvc.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\ImageSharingApp.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\en\ImageSharingApp.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.Resources.Resource.resources
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.Resources.Resource.ru.resources
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.Resources.Resource.en.resources
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.PL.csproj.GenerateResource.Cache
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ru\ImageSharingApp.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\en\ImageSharingApp.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ImageSharingApp.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ImageSharingApp.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\ImageSharingApp.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\en\ImageSharingApp.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ActionMailer.Net.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ActionMailer.Net.Mvc.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\Antlr3.Runtime.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\DotNetOpenAuth.AspNet.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\DotNetOpenAuth.Core.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\DotNetOpenAuth.OAuth.Consumer.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\DotNetOpenAuth.OAuth.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\DotNetOpenAuth.OpenId.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\DotNetOpenAuth.OpenId.RelyingParty.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\EntityFramework.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\EntityFramework.SqlServer.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ImageSharing.Business.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ImageSharingApp.DAL.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\Microsoft.Web.Infrastructure.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\Microsoft.Web.WebPages.OAuth.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\Newtonsoft.Json.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\SimpleCrypto.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Net.Http.Formatting.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.Helpers.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.Http.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.Http.WebHost.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.Mvc.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.Optimization.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.Razor.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.WebPages.Deployment.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.WebPages.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.WebPages.Razor.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\WebGrease.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\WebMatrix.Data.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\WebMatrix.WebData.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ImageSharing.Business.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ImageSharingApp.DAL.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ActionMailer.Net.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ActionMailer.Net.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ActionMailer.Net.Mvc.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ActionMailer.Net.Mvc.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\EntityFramework.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\EntityFramework.SqlServer.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\Newtonsoft.Json.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Net.Http.Formatting.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.Helpers.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.Http.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.Http.WebHost.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.Mvc.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.Razor.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.WebPages.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.WebPages.Deployment.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\System.Web.WebPages.Razor.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\WebMatrix.Data.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\Microsoft.Web.WebPages.OAuth.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\WebMatrix.WebData.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\DotNetOpenAuth.AspNet.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\DotNetOpenAuth.Core.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\DotNetOpenAuth.OAuth.Consumer.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\DotNetOpenAuth.OAuth.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\DotNetOpenAuth.OpenId.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\DotNetOpenAuth.OpenId.RelyingParty.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\EntityFramework.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\EntityFramework.SqlServer.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\System.Net.Http.Formatting.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\System.Web.Helpers.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\System.Web.Http.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\System.Web.Http.WebHost.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\System.Web.Mvc.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\System.Web.Optimization.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\System.Web.Razor.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\System.Web.WebPages.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\System.Web.WebPages.Deployment.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\System.Web.WebPages.Razor.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\WebMatrix.Data.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\tmp\ru\WebMatrix.WebData.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ImageSharingApp.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ImageSharingApp.pdb
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\ImageSharingApp.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\en\ImageSharingApp.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ActionMailer.Net.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ActionMailer.Net.Mvc.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\Antlr3.Runtime.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.Core.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\EntityFramework.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ImageSharing.Business.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ImageSharingApp.DAL.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\Newtonsoft.Json.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\SimpleCrypto.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Net.Http.Formatting.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Helpers.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Http.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Http.WebHost.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Mvc.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Optimization.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Razor.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.WebPages.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\WebGrease.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\WebMatrix.Data.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\WebMatrix.WebData.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ImageSharing.Business.pdb
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ImageSharingApp.DAL.pdb
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ActionMailer.Net.pdb
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ActionMailer.Net.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ActionMailer.Net.Mvc.pdb
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ActionMailer.Net.Mvc.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\EntityFramework.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\Newtonsoft.Json.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Net.Http.Formatting.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Helpers.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Http.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Http.WebHost.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Mvc.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.Razor.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.WebPages.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\WebMatrix.Data.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\WebMatrix.WebData.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.Core.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\EntityFramework.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.Http.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\WebMatrix.Data.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ru\WebMatrix.WebData.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.PL.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.Resources.Resource.resources
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.Resources.Resource.ru.resources
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.Resources.Resource.en.resources
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.PL.csproj.GenerateResource.Cache
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ru\ImageSharingApp.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\en\ImageSharingApp.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\obj\Debug\ImageSharingApp.pdb
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp\bin\ImageSharingApp.dll.config

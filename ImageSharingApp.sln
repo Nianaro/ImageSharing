@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSharingApp.PL", "ImageSharingApp\ImageSharingApp.PL.csproj", "{5E6E9C5E-A122-41C5-B99F-BC905C71EF15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSharingApp.DAL", "ImageSharingApp.DAL\ImageSharingApp.DAL.csproj", "{B120ACC0-6AE3-4FD2-B89D-FE3BE570A777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSharingApp.BLL", "ImageSharing.Business\ImageSharingApp.BLL.csproj", "{A7956D3C-1301-4237-BEC0-61B81841A14A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E6E9C5E-A122-41C5-B99F-BC905C71EF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6E9C5E-A122-41C5-B99F-BC905C71EF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6E9C5E-A122-41C5-B99F-BC905C71EF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6E9C5E-A122-41C5-B99F-BC905C71EF15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B120ACC0-6AE3-4FD2-B89D-FE3BE570A777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B120ACC0-6AE3-4FD2-B89D-FE3BE570A777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B120ACC0-6AE3-4FD2-B89D-FE3BE570A777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B120ACC0-6AE3-4FD2-B89D-FE3BE570A777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7956D3C-1301-4237-BEC0-61B81841A14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7956D3C-1301-4237-BEC0-61B81841A14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7956D3C-1301-4237-BEC0-61B81841A14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7956D3C-1301-4237-BEC0-61B81841A14A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿@model IEnumerable<ImageSharingApp.DAL.Entities.User>
+@{
+    Layout = "~/Views/MasterPage.cshtml";    
+}
+<ul class="media-list">
+    @if (Model != null)
+    {
+        foreach (var user in Model)
+        {
+        <li class="media">
+            <div class="media-left">
+                <a href="/User/LookUser?id=@user.ID" >
+                    <img class="media-object" src="~/Content/images/@user.avatar" width="50" height="50" class="img-circle">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">@user.firstName @user.secondName</h4>
+            </div>
+        </li>
+        }
+    }
+</ul>

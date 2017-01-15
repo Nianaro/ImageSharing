@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ImageSharingApp.DAL.Entities.Comment>
+@{
+    Layout = "~/Views/MasterPage.cshtml";
+    int userId = (int)HttpContext.Current.Session["userId"];
+}
+@using (Html.BeginForm("UserPosts", "Admin"))
+{
+    <input name="userId" type="hidden" value="@userId"/>
+    <input class="btn btn-primary" type="submit" value="@Resources.Resource.Publications" />
+}
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <td>@Resources.Resource.Comment</td>
+            <td>@Resources.Resource.Date</td>
+            <td>@Resources.Resource.Action</td>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var comment in Model)
+            {
+            <tr>
+                <td>@comment.text</td>
+                <td>@comment.date</td>
+                <td>@using (Ajax.BeginForm("BlockOrUnblockComment", "Admin", new AjaxOptions { }))
+                    {
+                    <input name="commentId" type="hidden" value="@comment.ID"/>
+                    <input class="btn btn-danger" id="@comment.ID" type="submit"  onclick="@("change(" + comment.ID + ")")" value="@(comment.isBlocked ? Resources.Resource.Unblock : Resources.Resource.Block)"/>
+                    }</td>
+            </tr>
+            }
+        }
+    </tbody>
+</table>
+<script type="text/javascript">
+    var blockRu = "Заблокировать";
+    var blockEn = "Block";
+    var unblockRu = "Разблокировать";
+    var unblockEn = "Unblock";
+    function change(commentId) {
+        var flag = document.getElementById(commentId);
+        if (flag.value == blockEn) {
+            flag.value = unblockEn;
+        } else if (flag.value == unblockEn) {
+            flag.value = blockEn;
+        } else if (flag.value == blockRu) {
+            flag.value = unblockRu;
+        } else if (flag.value == unblockRu) {
+            flag.value = blockRu;
+        }
+    }
+</script>
+

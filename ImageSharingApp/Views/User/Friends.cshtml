@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ImageSharingApp.DAL.Entities.FriendModel>
+@{
+    Layout = "~/Views/MasterPage.cshtml";    
+}
+
+<table id="table" class="table table-hover">
+    <thead>
+        <tr>
+            <td>@Resources.Resource.FirstName</td>
+            <td>@Resources.Resource.SecondName</td>
+            <td>@Resources.Resource.NumberOfPublications</td>
+            <td>@Resources.Resource.Action</td>
+        </tr>
+    </thead>
+    <tbody id="tbody">
+        @foreach (var friend in Model)
+        {
+            <tr>
+                <td>@friend.firstName</td>
+                <td>@friend.secondName</td>
+                <td>@friend.postCount</td>
+                <td>@if (HttpContext.Current.Session["user"] != null)
+                    {
+                    <div>
+                        @using (Ajax.BeginForm("SubscrOrUnsubscr", "User", new AjaxOptions { }))
+                        {
+                            <input name="id" type="hidden" value="@friend.ID"/>
+                            <input class="btn btn-warning" id="@friend.ID" type="submit"  onclick="@("change(" + friend.ID + ")")" value="@Resources.Resource.Unsubscribe"/>
+                        }
+                    </div>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script type="text/javascript">
+    var subscribeRu = "Подписаться";
+    var subscribeEn = "Subscribe";
+    var unsubscribeRu = "Отписаться";
+    var unsubscribeEn = "Unsubscribe";
+    function change(userId) {
+        var flag = document.getElementById(userId);
+        if (flag.value == subscribeEn) {
+            flag.value = unsubscribeEn;
+        } else if (flag.value == unsubscribeEn) {
+            flag.value = subscribeEn;
+        } else if (flag.value == subscribeRu) {
+            flag.value = unsubscribeRu;
+        } else if (flag.value == unsubscribeRu) {
+            flag.value = subscribeRu;
+        }
+    }
+</script>

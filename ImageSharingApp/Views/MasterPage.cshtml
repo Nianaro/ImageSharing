@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SFBP</title>
+    <link rel="stylesheet" href="~/Content/bootstrap3/css/bootstrap.min.css" />
+    <script src="~/Content/bootstrap3/js/jquery-3.1.0.min.js"></script>
+    <script src="~/Content/bootstrap3/js/bootstrap.min.js"></script>
+    @Scripts.Render("~/scripts/jquery-1.7.1.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.js")
+</head>
+<body>
+    <header>
+        <div class="container">
+            @{Html.RenderPartial("~/Views/Header.cshtml");}
+        </div>
+    </header>
+    <div class="container">
+        @RenderBody()
+    </div>
+    <footer style="position: fixed; bottom: 0; width: 100%; height: 30px; background-color: #f5f5f5;">
+        <div class="container">
+            <div style="margin-left: 40%; margin-right: 40%;">
+                @{Html.RenderPartial("~/Views/Footer.cshtml");}
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

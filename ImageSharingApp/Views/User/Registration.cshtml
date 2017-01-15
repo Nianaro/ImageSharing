@@ -1,0 +1,130 @@
+﻿@model ImageSharingApp.DAL.Entities.User
+@{
+    Layout = "~/Views/MasterPage.cshtml";
+}
+<h2>@ViewBag.Title</h2>
+<form>
+</form>
+@using (Html.BeginForm("Registration", "User", FormMethod.Post, new { id = "registrationForm", enctype = "multipart/form-data", @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <div class="col-sm-5">
+            <label for="exampleInputFirstName">@Resources.Resource.FirstName</label>
+            <input name="firstName" type="text" class="form-control" id="exampleInputFirstName" placeholder="@Resources.Resource.FirstName"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-5">
+            <label for="exampleInputSecondName">@Resources.Resource.SecondName</label>
+            <input name="secondName" type="text" class="form-control" id="exampleInputSecondName" placeholder="@Resources.Resource.SecondName"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-5">
+            <label for="exampleInputPassword1">@Resources.Resource.Password</label>
+            <input id="password" name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="@Resources.Resource.Password">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-5">
+            <label for="exampleInputPassword2">@Resources.Resource.ConfirmPassword</label>
+            <input name="confirmPassword" type="password" class="form-control" id="exampleInputPassword2" placeholder="@Resources.Resource.ConfirmPassword"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-5">
+            <label for="exampleInputEmail1">@Resources.Resource.Email</label>
+            <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="@Resources.Resource.Email">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-5">
+            <label for="exampleInputFile">@Resources.Resource.Photo</label>
+            <input name="pic" type="file" id="exampleInputFile" value="@Resources.Resource.Photo">
+            <p></p>
+            <button type="submit" class="btn btn-default">@Resources.Resource.Registration</button>
+        </div>
+    </div>
+}
+<style type="text/css">
+    .my-error-class {
+        color: red;
+    }
+
+    .my-valid-class {
+        color: green;
+    }
+</style>
+@Scripts.Render("~/scripts/jquery.validate.js");
+<script type="text/javascript">
+    var en = "en";
+    $(document).ready(function () {
+        var lang = '@(HttpContext.Current.Request.Cookies["lang"] == null ? "ru" : HttpContext.Current.Request.Cookies["lang"].Value)';
+        $("#registrationForm").validate({
+            errorClass: "my-error-class",
+            validClass: "my-valid-class",
+            rules: {
+                firstName: {
+                    required: true,
+                    minlength: 4,
+                    maxlength: 20,
+                },
+                secondName: {
+                    required: true,
+                    minlength: 4,
+                    maxlength: 20,
+                },
+                password: {
+                    required: true,
+                    minlength: 4,
+                    maxlength: 20,
+                },
+                confirmPassword: {
+                    required: true,
+                    minlength: 4,
+                    maxlength: 20,
+                    equalTo: "#password"
+                },
+                email: {
+                    required: true,
+                    email: true,
+                },
+                pic: {
+                    required: false,
+                    accept: "jpg|jpeg|png",
+                },
+            },
+            messages: {
+                firstName: {
+                    required: lang == en ? "This field is required." : "Это поле необходимо заполнить.",
+                    minlength: lang == en ? $.validator.format("Please enter at least {0} characters.") : $.validator.format("Пожалуйста, введите не меньше {0} символов."),
+                    maxlength: lang == en ? $.validator.format("Please enter no more than {0} characters.") : $.validator.format("Пожалуйста, введите не больше {0} символов."),
+                },
+                secondName: {
+                    required: lang == en ? "This field is required." : "Это поле необходимо заполнить.",
+                    minlength: lang == en ? $.validator.format("Please enter at least {0} characters.") : $.validator.format("Пожалуйста, введите не меньше {0} символов."),
+                    maxlength: lang == en ? $.validator.format("Please enter no more than {0} characters.") : $.validator.format("Пожалуйста, введите не больше {0} символов."),
+                },
+                password: {
+                    required: lang == en ? "This field is required." : "Это поле необходимо заполнить.",
+                    minlength: lang == en ? $.validator.format("Please enter at least {0} characters.") : $.validator.format("Пожалуйста, введите не меньше {0} символов."),
+                    maxlength: lang == en ? $.validator.format("Please enter no more than {0} characters.") : $.validator.format("Пожалуйста, введите не больше {0} символов."),
+                },
+                confirmPassword: {
+                    required: lang == en ? "This field is required." : "Это поле необходимо заполнить.",
+                    minlength: lang == en ? $.validator.format("Please enter at least {0} characters.") : $.validator.format("Пожалуйста, введите не меньше {0} символов."),
+                    maxlength: lang == en ? $.validator.format("Please enter no more than {0} characters.") : $.validator.format("Пожалуйста, введите не больше {0} символов."),
+                    equalTo: lang == en ? "Please enter the same value again." : "Пожалуйста, введите такое же значение ещё раз.",
+                },
+                email: {
+                    required: lang == en ? "This field is required." : "Это поле необходимо заполнить.",
+                    email: lang == en ? "Please enter a valid email address." : "Пожалуйста, введите корректный адрес электронной почты.",
+                },
+                pic: {
+                    accept: lang == en ? "Please enter .jpg or .jpeg or .png." : "Пожалуйста, выберите файл с расширением .jpg или .jpeg или .png.",
+                }
+            }
+        });
+    });
+</script>

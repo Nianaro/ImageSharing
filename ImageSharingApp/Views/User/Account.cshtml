@@ -1,0 +1,213 @@
+﻿@model IEnumerable<ImageSharingApp.DAL.Entities.PostModel>
+@using ImageSharingApp.DAL.Entities;
+@{
+    Layout = "~/Views/MasterPage.cshtml";
+    User i = (User)HttpContext.Current.Session["user"];
+}
+<div style="margin-right:85%;">
+    @Html.ActionLink(@Resources.Resource.MyPosts, "GetMyPosts", "User")
+    @if (i.isAdmin)
+    {
+        @Html.ActionLink(@Resources.Resource.Admin, "Admin", "Admin")
+    }
+</div>
+
+<div style="margin-left:15%; float: left;">
+    <img src="~/Content/images/@i.avatar" width="200" height="350"/>
+    <div>
+        <p style="font-weight: bold; font-size: 20px">@i.firstName @i.secondName</p>
+    </div>
+</div>
+<div id="your-file" style="margin-left: 40%">
+    <textarea class="form-control" id="description" cols="70" rows="5" maxlength="255" style="resize: none" placeholder="@Resources.Resource.AddYourCommentHereAndDragPhoto"></textarea><p />
+    <input class="btn btn-primary" type="button" value="@Resources.Resource.Add"onclick="send()" />
+    <img id="picture" src="" />
+</div>
+@using (Ajax.BeginForm("LocatePosts", "User", new AjaxOptions
+{
+    UpdateTargetId = "posts"
+}, new { id = "locatePost" }))
+{ }
+<div id="posts" style="margin-left: 40%">
+</div>
+<div id="postsOnLoadPage" style="margin-left: 40%; margin-right:33%">
+    @if (Model != null && Model.Count() != 0)
+    {
+        foreach (var post in Model)
+        {
+            if (post != null && !String.IsNullOrEmpty(post.photo))
+            {
+        <div >
+            <div onclick="@("look(" + post.ID +")")">
+                <img src="~/Content/images/@post.photo" width="300" height="200" style="cursor:pointer"/>
+            </div>
+            <div>@post.date by @post.firstName @post.secondName</div>
+        </div>
+            }
+        }
+    }
+</div>
+<script type="text/javascript">
+    var photo = null;
+    var allowExtentions = ["jpg", "jpeg", "png"];
+
+    function displayImg(URL) {
+        if (URL) {
+            imageUrl = URL.createObjectURL(photo);
+            image = document.createElement("img");
+            image.id = "picture";
+            image.width = 300;
+            image.height = 150;
+            image.onload = function () {
+                URL.revokeObjectURL(imageUrl);
+            };
+            image.src = imageUrl;
+            document.getElementById("your-file").appendChild(image);
+        }
+    }
+
+    function checkExtention(extention) {
+        for (var i = 0; i < allowExtentions.length; i++) {
+            if (allowExtentions[i] == extention) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function look(postId) {
+        var form = new FormData();
+        form.append("postId", postId);
+        var xhr = new XMLHttpRequest();
+        xhr.onload = function () {
+            $("#popupPost").trigger('submit');
+        }
+        xhr.open("post", "../User/GetPost", true);
+        xhr.send(form);
+        $("#popup").show("700");
+        $("#hover").show();
+    };
+    function hide() {
+        $("#popup").hide("700");
+        $("#post").empty();
+        $("#hover").hide();
+    }
+
+
+    function clean() {
+        var textarea = document.createElement("textarea");
+        textarea.id = "description";
+        textarea.cols = 70;
+        textarea.rows = 5;
+        textarea.maxLength = 255;
+        textarea.innerText = "@Resources.Resource.AddYourCommentHereAndDragPhoto";
+        textarea.style.resize = "none";
+        var picture = document.createElement("img");
+        picture.id = "picture";
+        picture.src = "";
+        var div = document.getElementById("your-file");
+        div.replaceChild(textarea, document.getElementById("description"));
+        div.replaceChild(picture, document.getElementById("picture"));
+    }
+
+    function check() {
+        var img = document.getElementById("picture");
+        if (img.getAttribute("src") == "") {
+            window.alert("Add picture");
+            return false;
+        }
+        return true;
+    }
+
+    function send() {
+        if (check()) {
+            var form = new FormData();
+            var description = document.getElementById("description");
+            form.append("picture", photo);
+            form.append("description", description.value);
+
+            clean();
+
+            // отправляем через xhr
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function () {
+                $("#postsOnLoadPage").empty();
+                $("#locatePost").trigger('submit');
+            }
+            xhr.open("post", "/User/AddPost", true);
+            xhr.send(form);
+        }
+    }
+
+    var target = document.getElementById("your-file");
+    target.addEventListener("dragover", function (event) {
+        event.preventDefault(); // отменяем действие по умолчанию
+    }, false);
+
+    target.addEventListener("drop", function (event) {
+        // отменяем действие по умолчанию
+        event.preventDefault();
+        var files = event.dataTransfer.files;
+        photo = files[files.length - 1];
+
+        var extention = photo.name.split('.').pop();
+
+        if (checkExtention(extention)) {
+            photo = null;
+            files = [];
+            window.alert("Only .jpg or .jpeg or .png");
+            return;
+        }
+
+        if (files.length == 2) {
+            photo = files[1];
+            files = [];
+            files[0] = photo;
+        }
+
+        var picture = document.getElementById("picture");
+        picture.parentNode.removeChild(picture);
+
+        var URL = window.URL || window.webkitURL,
+  imageUrl,
+  image;
+        displayImg(URL);
+    }, false);
+</script>
+<style type="text/css">
+    #popup {
+       
+        display: none;
+        background: #fff;
+        position:fixed;
+        z-index: 999;
+        width: 600px;
+        height: 700px;
+        top: 50%;
+        left: 50%;
+        margin-left: -300px;
+        margin-top: -350px;
+    }
+
+    #hover {
+        display: none;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0, 0.6);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 998;
+        cursor: pointer;
+    }
+</style>
+<div id="popup">
+    @using (Ajax.BeginForm("PopupPost", "User", new AjaxOptions
+{
+    UpdateTargetId = "post"
+}, new { id = "popupPost" }))
+    { }
+    <div id="post">
+    </div>
+</div>
+<div id="hover" onclick="hide()"></div>

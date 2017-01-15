@@ -1,0 +1,36 @@
+﻿@model ImageSharingApp.Models.LookUserModel
+@{
+    Layout = "~/Views/MasterPage.cshtml";    
+}
+
+<p style="font-size:18px; font-weight:bold">@Model.firstName @Model.secondName</p>
+<img src="~/Content/images/@Model.avatar" width="200" height="350"/><p />
+@if (HttpContext.Current.Session["user"] != null)
+{
+    <div>
+        @using (Ajax.BeginForm("SubscrOrUnsubscr", "User", new AjaxOptions { }))
+        {
+            <input name="id" type="hidden" value="@Model.ID"/>
+            <input id="@Model.ID" type="submit" class="btn btn-primary" onclick="@("change(" + Model.ID + ")")" value="@(Model.isFolowing ? Resources.Resource.Unsubscribe : Resources.Resource.Subscribe)"/>
+        }
+    </div>
+    <p />
+}
+<script type="text/javascript">
+    var subscribeRu = "Подписаться";
+    var subscribeEn = "Subscribe";
+    var unsubscribeRu = "Отписаться";
+    var unsubscribeEn = "Unsubscribe";
+    function change(userId) {
+        var flag = document.getElementById(userId);
+        if (flag.value == subscribeEn) {
+            flag.value = unsubscribeEn;
+        } else if (flag.value == unsubscribeEn) {
+            flag.value = subscribeEn;
+        } else if (flag.value == subscribeRu) {
+            flag.value = unsubscribeRu;
+        } else if (flag.value == unsubscribeRu) {
+            flag.value = subscribeRu;
+        }
+    }
+</script>

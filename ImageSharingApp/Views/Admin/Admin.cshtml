@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ImageSharingApp.DAL.Entities.User>
+@{
+    Layout = "~/Views/MasterPage.cshtml";
+}
+@using (Html.BeginForm("SearchUserBySecondName", "Admin"))
+{
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="input-group">
+                <input class="form-control" name="secondName" type="text" placeholder="@Resources.Resource.EnterSecondName"/>
+                <span class="input-group-btn">
+                    <input class="btn btn-primary" type="submit" value="@Resources.Resource.Search" />
+                </span>
+            </div>
+            <!-- /input-group -->
+        </div>
+        <!-- /.col-lg-6 -->
+    </div>
+}
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <td>@Resources.Resource.Photo</td>
+            <td>@Resources.Resource.FirstName</td>
+            <td>@Resources.Resource.SecondName</td>
+            <td>@Resources.Resource.Publications</td>
+            <td>@Resources.Resource.Action</td>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var user in Model)
+            {
+            <tr>
+                <td>
+                    <img src="~/Content/images/@user.avatar" width="50" height="50"/></td>
+                <td>@user.firstName</td>
+                <td>@user.secondName</td>
+                <td>@using (Html.BeginForm("UserPosts", "Admin"))
+                    {
+                    <input name="userId" type="hidden" value="@user.ID"/>
+                    <input class="btn btn-primary" type="submit" value="@Resources.Resource.Publications" />}</td>
+                <td>
+                    @using (Ajax.BeginForm("BlockOrUnblockUser", "Admin", new AjaxOptions { }))
+                    {
+                        <input name="userId" type="hidden" value="@user.ID"/>
+                        <input class="btn btn-danger" id="@user.ID" type="submit"  onclick="@("change(" + user.ID + ")")" value="@(user.isBlocked ? Resources.Resource.Unblock : Resources.Resource.Block)"/>
+                    }
+                </td>
+            </tr>
+            }
+        }
+    </tbody>
+</table>
+<script type="text/javascript">
+    var blockRu = "Заблокировать";
+    var blockEn = "Block";
+    var unblockRu = "Разблокировать";
+    var unblockEn = "Unblock";
+    function change(userId) {
+        var flag = document.getElementById(userId);
+        if (flag.value == blockEn) {
+            flag.value = unblockEn;
+        } else if (flag.value == unblockEn) {
+            flag.value = blockEn;
+        } else if (flag.value == blockRu) {
+            flag.value = unblockRu;
+        } else if (flag.value == unblockRu) {
+            flag.value = blockRu;
+        }
+    }
+</script>

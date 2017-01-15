@@ -1,0 +1,24 @@
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\ImageSharing.Business.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\ImageSharing.Business.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\ImageSharingApp.DAL.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\EntityFramework.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\ImageSharingApp.DAL.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\EntityFramework.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\obj\Debug\ImageSharingApp.BLL.csprojResolveAssemblyReference.cache
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\obj\Debug\ImageSharing.Business.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\obj\Debug\ImageSharing.Business.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\ImageSharing.Business.dll.config
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\EntityFramework.SqlServer.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\ImageSharing.Business.dll.config
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\ImageSharing.Business.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\ImageSharing.Business.pdb
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\EntityFramework.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\ImageSharingApp.DAL.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\ImageSharingApp.DAL.pdb
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\EntityFramework.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\obj\Debug\ImageSharingApp.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\obj\Debug\ImageSharing.Business.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharing.Business\obj\Debug\ImageSharing.Business.pdb

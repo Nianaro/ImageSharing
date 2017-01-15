@@ -1,0 +1,24 @@
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\obj\Debug\ImageSharingApp.DAL.csprojResolveAssemblyReference.cache
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\ImageSharingApp.DAL.dll.config
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\ImageSharingApp.DAL.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\ImageSharingApp.DAL.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\EntityFramework.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\EntityFramework.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\obj\Debug\ImageSharingApp.DAL.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\obj\Debug\ImageSharingApp.DAL.pdb
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\ru\EntityFramework.resources.dll
+A:\Program Files (x86)\Microsoft Visual Studio 11.0\Save\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\ImageSharingApp.DAL.dll.config
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\ImageSharingApp.DAL.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\ImageSharingApp.DAL.pdb
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\obj\Debug\ImageSharingApp.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\obj\Debug\ImageSharingApp.DAL.dll
+C:\Users\Alexander\Downloads\Каразина-Microsoft .NET-SocialImageSharing-KolesnikAlexander\Social  Image Sharing\ImageSharingApp\ImageSharingApp.DAL\obj\Debug\ImageSharingApp.DAL.pdb

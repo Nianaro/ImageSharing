@@ -1,0 +1,312 @@
+﻿UserHelper helper = new UserHelper(new Repository());
+
+        //
+        //GET: /User/Registration
+
+        public ActionResult Registration()
+        {
+            return View(new User());
+        }
+
+        //
+        //POST: /User/Registration
+
+        [HttpPost]
+        public ActionResult Registration(User user, string password, HttpPostedFileBase pic)
+        {
+
+            if (!ModelState.IsValid)
+            {
+
+                if (pic.ContentLength > 0)
+                {
+                    string fileName = Path.GetFileName(pic.FileName);
+                    string code = Guid.NewGuid().ToString();
+                    var path = Path.Combine(Server.MapPath("~/Content/images"), code + fileName);
+                    pic.SaveAs(path);
+                    user.avatar = code + fileName;
+                }
+
+                // Попытка зарегистрировать пользователя
+                try
+                {
+                    user.password = Utility.GetHashString(user.password);
+                    helper.AddUser(user);
+                    User usr = helper.GetUserByEmail(user.email);
+                    Guid key = Guid.NewGuid();
+                    ConfirmRegistration CR = new ConfirmRegistration()
+                    {
+                        ID = key,
+                        user = usr
+                    };
+                    helper.AddCR(CR);
+                    Utility.ConfirmRegistration(user.email, key);
+                    ViewBag.Title = "Letter on your emai, confirm registration";
+                    return RedirectToAction("Login", "User");
+                }
+                catch (MembershipCreateUserException e)
+                {
+                    ModelState.AddModelError("", e.StatusCode.ToString());
+                }
+
+            }
+
+            // Появление этого сообщения означает наличие ошибки; повторное отображение формы
+            return View(user);
+        }
+
+        //
+        //GET: /User/Login
+
+        public ActionResult Login()
+        {
+            User user = (User)HttpContext.Session["user"];
+            if (user != null) {
+                return View("Account");
+            }
+            return View();
+        }
+
+        //
+        //POST: /User/Login
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public ActionResult Login(LoginModel loginModel)
+        {
+            User user = helper.GetUser(loginModel.Email, Utility.GetHashString(loginModel.Password));
+            if (user != null && helper.IsCRExist(user))
+            {
+                ViewBag.Title = "User do not exist";
+                return View();
+            }
+            if (user != null)
+            {
+                FormsAuthentication.SetAuthCookie(loginModel.Email, true);
+                HttpContext.Session["user"] = user;
+                IEnumerable<PostModel> posts = helper.GetPosts(user.ID);
+                return View("Account", posts);
+            }
+
+            // Появление этого сообщения означает наличие ошибки; повторное отображение формы
+            ModelState.AddModelError("", "Имя пользователя или пароль указаны неверно.");
+            return View(loginModel);
+        }
+
+        //
+        //POST: /User/Logout
+
+        [Authorize]
+        public ActionResult Logout()
+        {
+            HttpContext.Session["user"] = null;
+            FormsAuthentication.SignOut();
+            return RedirectToAction("Login", "User");
+        }
+
+        [Authorize]
+        public ActionResult Account()
+        {
+            User user = (User)HttpContext.Session["user"];
+            IEnumerable<PostModel> posts = helper.GetPosts(user.ID);
+            return View(posts);
+        }
+
+        //
+        //GET: /User/ConfirmRegistration
+
+        public ActionResult ConfirmRegistration(string key)
+        {
+            ConfirmRegistration CR = helper.GetCRByKey(new Guid(key));
+            User user = CR.user;
+            HttpContext.Session["user"] = user;
+            helper.RemoveFromCR(CR);
+            FormsAuthentication.SetAuthCookie(user.email, true);
+            return View("Account");
+        }
+
+        //
+        //GET: /User/Header
+
+        public ActionResult Header()
+        {
+            return PartialView();
+        }
+
+        public ActionResult Footer()
+        {
+            return View();
+        }
+
+        //
+        //POST: /User/SearchFriend
+
+        public ActionResult SearchFriend(string name)
+        {
+            var users = helper.GetUsers(name).ToList();
+
+            if (users.Count() == 0)
+            {
+                return HttpNotFound();
+            }
+
+            return PartialView(users);
+        }
+
+        //
+        //GET: /User/LookUser
+
+        public ActionResult LookUser(int id)
+        {
+            var user = helper.GetUser(id);
+            User u = ((User)(HttpContext.Session["user"]));
+            int myId = u == null ? -1 : u.ID;
+            LookUserModel LUM = new LookUserModel()
+            {
+                ID = user.ID,
+                firstName = user.firstName,
+                secondName = user.secondName,
+                avatar = user.avatar,
+                isFolowing = helper.isFollowing(user.ID, myId)
+            };
+            return View(LUM);
+        }
+
+        //
+        //POST: /User/Subscribe
+
+        public ActionResult Subscribe(int id)
+        {
+            int myId = ((User)(HttpContext.Session["user"])).ID;
+            if (!helper.isFollowing(id, myId))
+            {
+                helper.Subscribe(id, myId);
+            }
+            return PartialView("SubscrOrUnsubscr");
+        }
+
+        //
+        //POST: /User/Unsubscribe
+
+        public ActionResult Unsubscribe(int id)
+        {
+            int myId = ((User)(HttpContext.Session["user"])).ID;
+            if (helper.isFollowing(id, myId))
+            {
+                helper.Unsubscribe(id, myId);
+            }
+            return PartialView("SubscrOrUnsubscr");
+        }
+
+
+
+        [Authorize]
+        public ActionResult Friends()
+        {
+            User my = (User)HttpContext.Session["user"];
+            return View(helper.GetFriends(my.ID).ToList());
+        }
+
+
+        //[HttpPost]
+        //public ActionResult UploadFile(HttpPostedFileBase file)
+        //{
+
+        //    string filePath = Path.Combine("~/Content/images/", file.FileName);
+        //    System.IO.File.WriteAllBytes(filePath, ReadData(file.InputStream));
+
+        //    return Json("All files have been successfully stored.");
+        //}
+
+        //private byte[] ReadData(Stream stream)
+        //{
+        //    byte[] buffer = new byte[16 * 1024];
+
+        //    using (MemoryStream ms = new MemoryStream())
+        //    {
+        //        int read;
+        //        while ((read = stream.Read(buffer, 0, buffer.Length)) > 0)
+        //        {
+        //            ms.Write(buffer, 0, read);
+        //        }
+
+        //        return ms.ToArray();
+        //    }
+        //}
+
+        [HttpPost]
+        public ActionResult AddPost(string description, HttpPostedFileBase picture)
+        {
+            Publication publication = null;
+            
+            if (picture.ContentLength > 0)
+            {
+                string code = Guid.NewGuid().ToString();
+                string fileName = Path.GetFileName(picture.FileName);
+                var path = Path.Combine(Server.MapPath("~/Content/images"), code + fileName);
+                picture.SaveAs(path);
+
+                publication = new Publication() { 
+                date = DateTime.Now,
+                description = description,
+                photo = code + fileName,
+            };
+            }
+            User usr = (User)HttpContext.Session["user"];
+            helper.AddPublication(publication, usr.ID);
+            return PartialView("AddPost");
+        }
+
+        public ActionResult LocatePosts()
+        {
+            User user = (User)HttpContext.Session["user"];
+            IEnumerable<PostModel> posts = helper.GetPosts(user.ID);
+            return PartialView("LocatePosts", posts);
+        }
+
+        public ActionResult GetPost(int postId)
+        {
+            Publication post = helper.GetPost(postId);
+            HttpContext.Session["post"] = post;
+            return PartialView("GetPost");
+        }
+
+        public ActionResult PopupPost()
+        {
+            Publication post = (Publication)HttpContext.Session["post"];
+            HttpContext.Session["post"] = null;
+            post.comments = helper.GetComments(post.ID);
+            return PartialView("PopupPost", post);
+        }
+
+        public ActionResult AddComment(int postId, string text)//Costil
+        {
+            Comment comment = new Comment() { 
+                date = DateTime.Now,
+                text = text
+            };
+            User user = (User)HttpContext.Session["user"];
+            helper.AddComment(comment, postId, user.ID);
+            IEnumerable<Comment> coments = helper.GetComments(postId);
+            return PartialView("AddComment", coments);
+        }
+        [Authorize]
+        public ActionResult GetMyPosts()
+        {
+            User user = (User)HttpContext.Session["user"];
+            IEnumerable<Publication> posts = helper.GetMyPosts(user.ID);
+            return View("MyPosts", posts);
+        }
+
+        public ActionResult EditPost(string edit, int postId)
+        {
+            helper.EditPost(edit, postId);
+            return View();
+        }
+
+        public ActionResult RemovePost(int postId)
+        {
+            helper.RemovePost(postId);
+            return View();
+        }
